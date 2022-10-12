@@ -1,0 +1,272 @@
+* {
+  padding: 0%;
+  font-family: sans-serif;
+  font-family: "Fraunces", serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-bar {
+  background: url(/sunnyside-agency-landing-page/images/desktop/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.nav-bar .creatives {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-bar .creatives h1 {
+  font-size: 50px;
+  color: white;
+}
+
+.nav-bar .creatives img {
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav ul a {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #090933;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+}
+
+.btn:hover {
+  background: #063260;
+}
+
+.btn {
+  color: white;
+  border: none;
+  background: #2292be;
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.brand img {
+  width: 700px;
+}
+
+.brand-2 {
+  width: 700px;
+  background: white;
+  padding: 100px;
+  position: relative;
+}
+
+.brand-2 h1 {
+  font-size: 30px;
+}
+
+.brand-2 a {
+  font: size 30%;
+  text-decoration: none;
+}
+
+.brand-2 a a::after {
+  content: "";
+  height: 3px;
+  width: 100%;
+  background: yellow;
+  position: absolute;
+  left: 0;
+  bottom: -10;
+}
+
+.stand-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.stand-1 img {
+  width: 635px;
+}
+
+.stand-2 {
+  width: 700px;
+  background: white;
+  padding: 100px;
+}
+
+.stand-2 h1 {
+  font-size: 30px;
+}
+
+.stand-2 a {
+  font: size 30%;
+  text-decoration: none;
+}
+
+.graphic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.apple {
+  background: url(/sunnyside-agency-landing-page/images/desktop/image-graphic-design.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  width: 47%;
+  height: 100vh;
+}
+
+.apple h1 {
+  font-size: 30px;
+}
+
+.apple a {
+  font: size 30%;
+  text-decoration: none;
+}
+
+.orange {
+  background-image: url(/sunnyside-agency-landing-page/images/desktop/image-photography.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 53.5%;
+  height: 100vh;
+  padding: 100px;
+  text-align: center;
+}
+
+.orange h1 {
+  font-size: 30px;
+}
+
+.orange a {
+  font: size 30%;
+  text-decoration: none;
+}
+
+.main-comment {
+  background: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0px;
+}
+
+.main-comment h1 {
+  font-size: 40pt;
+}
+
+.comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+.comment-1 {
+  width: 200px;
+}
+
+.comment-1 img {
+  width: 50px;
+  border-radius: 70px;
+}
+
+.comment-2 {
+  width: 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.comment-2 img {
+  width: 50px;
+  border-radius: 70px;
+}
+
+.comment-3 {
+  width: 200px;
+}
+
+.comment-3 img {
+  width: 50px;
+  border-radius: 70px;
+}
+
+.images-1 img {
+  width: 250px;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: -5px;
+}
+
+.attribut {
+  display: -ms-grid;
+  display: grid;
+  height: 400px;
+  background: #458c7e;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.attribut img {
+  margin-top: 20px;
+}
+
+.attribut a:hover {
+  color: white;
+}
+
+.attribut a {
+  text-decoration: none;
+  color: #044e3f;
+}
+
+.contact {
+  margin-bottom: 100px;
+}
+
+hr {
+  display: block;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+/*# sourceMappingURL=index.css.map */
